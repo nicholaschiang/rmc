@@ -21,7 +21,6 @@
     "rmc"
   ],
   "author": "Nicholas Chiang",
-  "private": false,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nicholaschiang/rmc/issues"
