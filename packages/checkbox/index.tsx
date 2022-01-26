@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import { MDCCheckboxAdapter, MDCCheckboxFoundation } from '@material/checkbox';
 import cn from 'classnames';
-import { strings } from '@material/checkbox/constants';
+import log from 'loglevel';
 
 export interface CheckboxProps {
   checked?: boolean;
@@ -12,61 +12,95 @@ export interface CheckboxProps {
 }
 
 export function Checkbox(props: CheckboxProps): JSX.Element {
-  const [checked, setChecked] = useState(props.checked || false);
-  const [indeterminate, setIndeterminate] = useState(
-    props.indeterminate || false
-  );
+  const [checked, setChecked] = useState(false);
+  const [indeterminate, setIndeterminate] = useState(false);
   const [classList, setClassList] = useState(new Set<string>());
-  const [disabled, setDisabled] = useState(props.disabled || false);
+  const [disabled, setDisabled] = useState(false);
   const foundation = useRef<MDCCheckboxFoundation>();
-  const adapter = useRef<MDCCheckboxAdapter>();
+  const state = useRef({ checked, indeterminate });
+  const rootEl = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    adapter.current = {
+    log.debug('Handling change...');
+    state.current.checked = checked;
+    state.current.indeterminate = indeterminate;
+    foundation.current?.handleChange();
+  }, [checked, indeterminate]);
+  useEffect(() => {
+    log.debug('Initializing foundation...');
+    const adapter: MDCCheckboxAdapter = {
       addClass(className: string): void {
+        log.debug(`Adding class (${className})...`);
         setClassList((prev) => {
-          prev.add(className);
-          return prev;
+          const list = new Set(prev);
+          list.add(className);
+          return list;
         });
       },
       removeClass(className: string): void {
+        log.debug(`Removing class (${className})...`);
         setClassList((prev) => {
-          prev.delete(className);
-          return prev;
+          const list = new Set(prev);
+          list.delete(className);
+          return list;
         });
       },
-      hasNativeControl: () => true,
-      isAttachedToDOM: () => true,
-      isChecked: () => checked,
-      isIndeterminate: () => indeterminate,
+      hasNativeControl(): boolean {
+        log.debug(`Has native control? ${true}`);
+        return true;
+      },
+      isAttachedToDOM(): boolean {
+        log.debug(`Is attached to DOM? ${true}`);
+        return true;
+      },
+      isChecked(): boolean {
+        log.debug(`Is checked? ${state.current.checked}`);
+        return state.current.checked;
+      },
+      isIndeterminate(): boolean {
+        log.debug(`Is indeterminate? ${state.current.indeterminate}`);
+        return state.current.indeterminate;
+      },
       setNativeControlAttr(attr: string, value: string): void {
-        if (
-          attr === strings.ARIA_CHECKED_ATTR &&
-          value === strings.ARIA_CHECKED_INDETERMINATE_VALUE
-        ) {
+        log.debug(`Setting native control attr (${attr}:${value})...`);
+        if (attr === 'aria-checked' && value === 'mixed') {
           setChecked(false);
           setIndeterminate(true);
         }
       },
-      setNativeControlDisabled: setDisabled,
-      removeNativeControlAttr(attr: string): void {
-        if (attr === strings.ARIA_CHECKED_ATTR) setChecked(false);
+      setNativeControlDisabled(disable: boolean): void {
+        log.debug(`Setting native control disabled (${disable})...`);
+        setDisabled(disable);
       },
-      forceLayout: () => {},
+      removeNativeControlAttr(attr: string): void {
+        log.debug(`Removing native control attr (${attr})...`);
+      },
+      forceLayout(): void {
+        log.debug('Forcing layout...');
+        void rootEl.current?.offsetWidth;
+      },
     };
-    foundation.current?.handleChange();
-  }, [checked, indeterminate]);
-  useEffect(() => {
-    foundation.current = new MDCCheckboxFoundation(adapter.current);
+    const base = new MDCCheckboxFoundation(adapter);
+    foundation.current = base;
     foundation.current.init();
-    return foundation.current.destroy;
+    return () => base.destroy();
   }, []);
   return (
-    <div className={cn('mdc-checkbox', classList, props.className)}>
+    <div
+      ref={rootEl}
+      className={cn('mdc-checkbox', props.className, ...classList)}
+    >
       <input
         type='checkbox'
         id='basic-disabled-checkbox'
         className='mdc-checkbox__native-control'
-        disabled
+        checked={checked}
+        disabled={disabled}
+        aria-checked={indeterminate ? 'mixed' : checked}
+        onChange={(evt) => {
+          log.debug('Change:', evt);
+          log.debug('Checked:', evt.currentTarget.checked);
+          setChecked(evt.currentTarget.checked);
+        }}
       />
       <div className='mdc-checkbox__background'>
         <svg className='mdc-checkbox__checkmark' viewBox='0 0 24 24'>

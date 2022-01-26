@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@material/checkbox": "^13.0.0",
-    "classnames": "^2.3.1"
+    "classnames": "^2.3.1",
+    "loglevel": "^1.8.0"
   }
 }
