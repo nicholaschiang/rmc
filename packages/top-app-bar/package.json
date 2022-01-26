@@ -1,5 +1,5 @@
 {
-  "name": "top-app-bar",
+  "name": "@rmc/top-app-bar",
   "version": "0.0.0",
   "description": "RMC Top App Bar Component",
   "main": "dist/index.js",

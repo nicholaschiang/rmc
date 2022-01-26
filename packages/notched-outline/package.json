@@ -1,5 +1,5 @@
 {
-  "name": "notched-outline",
+  "name": "@rmc/notched-outline",
   "version": "0.0.0",
   "description": "RMC Notched Outline Component",
   "main": "dist/index.js",

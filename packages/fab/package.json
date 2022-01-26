@@ -1,5 +1,5 @@
 {
-  "name": "fab",
+  "name": "@rmc/fab",
   "version": "0.0.0",
   "description": "RMC Fab Component",
   "main": "dist/index.js",

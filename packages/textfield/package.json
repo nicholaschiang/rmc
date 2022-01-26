@@ -1,5 +1,5 @@
 {
-  "name": "textfield",
+  "name": "@rmc/textfield",
   "version": "0.0.0",
   "description": "RMC Textfield Component",
   "main": "dist/index.js",

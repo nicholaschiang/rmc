@@ -1,5 +1,5 @@
 {
-  "name": "checkbox",
+  "name": "@rmc/checkbox",
   "version": "0.0.0",
   "description": "RMC Checkbox Component",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "radio",
+  "name": "@rmc/radio",
   "version": "0.0.0",
   "description": "RMC Radio Component",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "line-ripple",
+  "name": "@rmc/line-ripple",
   "version": "0.0.0",
   "description": "RMC Line Ripple Component",
   "main": "dist/index.js",

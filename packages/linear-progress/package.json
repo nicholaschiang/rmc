@@ -1,5 +1,5 @@
 {
-  "name": "linear-progress",
+  "name": "@rmc/linear-progress",
   "version": "0.0.0",
   "description": "RMC Linear Progress Component",
   "main": "dist/index.js",

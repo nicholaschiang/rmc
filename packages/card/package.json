@@ -1,5 +1,5 @@
 {
-  "name": "card",
+  "name": "@rmc/card",
   "version": "0.0.0",
   "description": "RMC Card Component",
   "main": "dist/index.js",

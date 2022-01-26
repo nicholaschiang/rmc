@@ -1,5 +1,5 @@
 {
-  "name": "circular-progress",
+  "name": "@rmc/circular-progress",
   "version": "0.0.0",
   "description": "RMC Circular Progress Component",
   "main": "dist/index.js",

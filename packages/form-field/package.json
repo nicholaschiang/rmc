@@ -1,5 +1,5 @@
 {
-  "name": "form-field",
+  "name": "@rmc/form-field",
   "version": "0.0.0",
   "description": "RMC Form Field Component",
   "main": "dist/index.js",

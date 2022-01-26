@@ -1,5 +1,5 @@
 {
-  "name": "elevation",
+  "name": "@rmc/elevation",
   "version": "0.0.0",
   "description": "RMC Elevation Component",
   "main": "dist/index.js",

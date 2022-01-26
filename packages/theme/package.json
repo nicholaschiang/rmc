@@ -1,5 +1,5 @@
 {
-  "name": "theme",
+  "name": "@rmc/theme",
   "version": "0.0.0",
   "description": "RMC Theme Component",
   "main": "dist/index.js",

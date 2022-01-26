@@ -1,5 +1,5 @@
 {
-  "name": "list",
+  "name": "@rmc/list",
   "version": "0.0.0",
   "description": "RMC List Component",
   "main": "dist/index.js",

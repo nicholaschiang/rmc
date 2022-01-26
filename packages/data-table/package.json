@@ -1,5 +1,5 @@
 {
-  "name": "data-table",
+  "name": "@rmc/data-table",
   "version": "0.0.0",
   "description": "RMC Data Table Component",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "switch",
+  "name": "@rmc/switch",
   "version": "0.0.0",
   "description": "RMC Switch Component",
   "main": "dist/index.js",

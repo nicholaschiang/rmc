@@ -3192,6 +3192,278 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rmc/button@workspace:packages/button":
+  version: 0.0.0-use.local
+  resolution: "@rmc/button@workspace:packages/button"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/card@workspace:packages/card":
+  version: 0.0.0-use.local
+  resolution: "@rmc/card@workspace:packages/card"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/checkbox@workspace:packages/checkbox":
+  version: 0.0.0-use.local
+  resolution: "@rmc/checkbox@workspace:packages/checkbox"
+  dependencies:
+    "@material/checkbox": ^13.0.0
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/chips@workspace:packages/chips":
+  version: 0.0.0-use.local
+  resolution: "@rmc/chips@workspace:packages/chips"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/circular-progress@workspace:packages/circular-progress":
+  version: 0.0.0-use.local
+  resolution: "@rmc/circular-progress@workspace:packages/circular-progress"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/data-table@workspace:packages/data-table":
+  version: 0.0.0-use.local
+  resolution: "@rmc/data-table@workspace:packages/data-table"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/dialog@workspace:packages/dialog":
+  version: 0.0.0-use.local
+  resolution: "@rmc/dialog@workspace:packages/dialog"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/drawer@workspace:packages/drawer":
+  version: 0.0.0-use.local
+  resolution: "@rmc/drawer@workspace:packages/drawer"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/elevation@workspace:packages/elevation":
+  version: 0.0.0-use.local
+  resolution: "@rmc/elevation@workspace:packages/elevation"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/fab@workspace:packages/fab":
+  version: 0.0.0-use.local
+  resolution: "@rmc/fab@workspace:packages/fab"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/floating-label@workspace:packages/floating-label":
+  version: 0.0.0-use.local
+  resolution: "@rmc/floating-label@workspace:packages/floating-label"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/form-field@workspace:packages/form-field":
+  version: 0.0.0-use.local
+  resolution: "@rmc/form-field@workspace:packages/form-field"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/icon-button@workspace:packages/icon-button":
+  version: 0.0.0-use.local
+  resolution: "@rmc/icon-button@workspace:packages/icon-button"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/image-list@workspace:packages/image-list":
+  version: 0.0.0-use.local
+  resolution: "@rmc/image-list@workspace:packages/image-list"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/line-ripple@workspace:packages/line-ripple":
+  version: 0.0.0-use.local
+  resolution: "@rmc/line-ripple@workspace:packages/line-ripple"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/linear-progress@workspace:packages/linear-progress":
+  version: 0.0.0-use.local
+  resolution: "@rmc/linear-progress@workspace:packages/linear-progress"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/list@workspace:packages/list":
+  version: 0.0.0-use.local
+  resolution: "@rmc/list@workspace:packages/list"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/menu@workspace:packages/menu":
+  version: 0.0.0-use.local
+  resolution: "@rmc/menu@workspace:packages/menu"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/notched-outline@workspace:packages/notched-outline":
+  version: 0.0.0-use.local
+  resolution: "@rmc/notched-outline@workspace:packages/notched-outline"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/radio@workspace:packages/radio":
+  version: 0.0.0-use.local
+  resolution: "@rmc/radio@workspace:packages/radio"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/ripple@workspace:packages/ripple":
+  version: 0.0.0-use.local
+  resolution: "@rmc/ripple@workspace:packages/ripple"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/select@workspace:packages/select":
+  version: 0.0.0-use.local
+  resolution: "@rmc/select@workspace:packages/select"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/slider@workspace:packages/slider":
+  version: 0.0.0-use.local
+  resolution: "@rmc/slider@workspace:packages/slider"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/snackbar@workspace:packages/snackbar":
+  version: 0.0.0-use.local
+  resolution: "@rmc/snackbar@workspace:packages/snackbar"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/switch@workspace:packages/switch":
+  version: 0.0.0-use.local
+  resolution: "@rmc/switch@workspace:packages/switch"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/textfield@workspace:packages/textfield":
+  version: 0.0.0-use.local
+  resolution: "@rmc/textfield@workspace:packages/textfield"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/theme@workspace:packages/theme":
+  version: 0.0.0-use.local
+  resolution: "@rmc/theme@workspace:packages/theme"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/tooltip@workspace:packages/tooltip":
+  version: 0.0.0-use.local
+  resolution: "@rmc/tooltip@workspace:packages/tooltip"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/top-app-bar@workspace:packages/top-app-bar":
+  version: 0.0.0-use.local
+  resolution: "@rmc/top-app-bar@workspace:packages/top-app-bar"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
+"@rmc/typography@workspace:packages/typography":
+  version: 0.0.0-use.local
+  resolution: "@rmc/typography@workspace:packages/typography"
+  peerDependencies:
+    react: ^17.0.x
+    react-dom: ^17.0.x
+  languageName: unknown
+  linkType: soft
+
 "@rushstack/eslint-patch@npm:^1.0.8":
   version: 1.1.0
   resolution: "@rushstack/eslint-patch@npm:1.1.0"
@@ -6278,15 +6550,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"button@workspace:packages/button":
-  version: 0.0.0-use.local
-  resolution: "button@workspace:packages/button"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "byline@npm:^5.0.0":
   version: 5.0.0
   resolution: "byline@npm:5.0.0"
@@ -6485,15 +6748,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"card@workspace:packages/card":
-  version: 0.0.0-use.local
-  resolution: "card@workspace:packages/card"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "case-sensitive-paths-webpack-plugin@npm:^2.3.0":
   version: 2.4.0
   resolution: "case-sensitive-paths-webpack-plugin@npm:2.4.0"
@@ -6574,26 +6828,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"checkbox@workspace:packages/checkbox":
-  version: 0.0.0-use.local
-  resolution: "checkbox@workspace:packages/checkbox"
-  dependencies:
-    "@material/checkbox": ^13.0.0
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
-"chips@workspace:packages/chips":
-  version: 0.0.0-use.local
-  resolution: "chips@workspace:packages/chips"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "chokidar@npm:^2.1.8":
   version: 2.1.8
   resolution: "chokidar@npm:2.1.8"
@@ -6673,15 +6907,6 @@ __metadata:
   checksum: 47d3568dbc17431a339bad1fe7dff83ac0891be8206911ace3d3b818fc695f376df809bea406e759cdea07fff4b454fa25f1013e648851bec790c1d75763032e
   languageName: node
   linkType: hard
-
-"circular-progress@workspace:packages/circular-progress":
-  version: 0.0.0-use.local
-  resolution: "circular-progress@workspace:packages/circular-progress"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "class-utils@npm:^0.3.5":
   version: 0.3.6
@@ -7498,15 +7723,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"data-table@workspace:packages/data-table":
-  version: 0.0.0-use.local
-  resolution: "data-table@workspace:packages/data-table"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "dateformat@npm:^3.0.0":
   version: 3.0.3
   resolution: "dateformat@npm:3.0.3"
@@ -7740,15 +7956,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dialog@workspace:packages/dialog":
-  version: 0.0.0-use.local
-  resolution: "dialog@workspace:packages/dialog"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "diffie-hellman@npm:^5.0.0":
   version: 5.0.3
   resolution: "diffie-hellman@npm:5.0.3"
@@ -7914,15 +8121,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drawer@workspace:packages/drawer":
-  version: 0.0.0-use.local
-  resolution: "drawer@workspace:packages/drawer"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "duplexer@npm:^0.1.1":
   version: 0.1.2
   resolution: "duplexer@npm:0.1.2"
@@ -7974,15 +8172,6 @@ __metadata:
   checksum: 81c47b7e229c303889d3a9d78ec3f3232e88a6682f1e2424fb0632d9b4f503b2ca011e6954321060604da07749a5a972b6a175fdf6c6806093a3b80a304cde7b
   languageName: node
   linkType: hard
-
-"elevation@workspace:packages/elevation":
-  version: 0.0.0-use.local
-  resolution: "elevation@workspace:packages/elevation"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "elliptic@npm:^6.5.3":
   version: 6.5.4
@@ -8883,15 +9072,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fab@workspace:packages/fab":
-  version: 0.0.0-use.local
-  resolution: "fab@workspace:packages/fab"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -9163,15 +9343,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"floating-label@workspace:packages/floating-label":
-  version: 0.0.0-use.local
-  resolution: "floating-label@workspace:packages/floating-label"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "flush-write-stream@npm:^1.0.0":
   version: 1.1.1
   resolution: "flush-write-stream@npm:1.1.1"
@@ -9273,15 +9444,6 @@ __metadata:
   checksum: 10c1780fa13dbe1ff3100114c2ce1f9307f8be10b14bf16e103815356ff567b6be39d70fc4a40f8990b9660012dc24b0f5e1dde1b6426166eb23a445ba068ca3
   languageName: node
   linkType: hard
-
-"form-field@workspace:packages/form-field":
-  version: 0.0.0-use.local
-  resolution: "form-field@workspace:packages/form-field"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "format@npm:^0.2.0":
   version: 0.2.2
@@ -10332,15 +10494,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"icon-button@workspace:packages/icon-button":
-  version: 0.0.0-use.local
-  resolution: "icon-button@workspace:packages/icon-button"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "iconv-lite@npm:0.4.24, iconv-lite@npm:^0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -10404,15 +10557,6 @@ __metadata:
   checksum: 6b1f926792d614f64c6c83da3a1f9c83f6196c2839aa41e1e32dd7b8d174cef2e329d75caabb62cb61ce9dc432f75e67d07d122a037312db7caa73166a1bdb77
   languageName: node
   linkType: hard
-
-"image-list@workspace:packages/image-list":
-  version: 0.0.0-use.local
-  resolution: "image-list@workspace:packages/image-list"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "import-fresh@npm:^3.0.0, import-fresh@npm:^3.1.0, import-fresh@npm:^3.2.1":
   version: 3.3.0
@@ -11631,39 +11775,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"line-ripple@workspace:packages/line-ripple":
-  version: 0.0.0-use.local
-  resolution: "line-ripple@workspace:packages/line-ripple"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
-"linear-progress@workspace:packages/linear-progress":
-  version: 0.0.0-use.local
-  resolution: "linear-progress@workspace:packages/linear-progress"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "lines-and-columns@npm:^1.1.6":
   version: 1.2.4
   resolution: "lines-and-columns@npm:1.2.4"
   checksum: 0c37f9f7fa212b38912b7145e1cd16a5f3cd34d782441c3e6ca653485d326f58b3caccda66efce1c5812bde4961bbde3374fae4b0d11bf1226152337f3894aa5
   languageName: node
   linkType: hard
-
-"list@workspace:packages/list":
-  version: 0.0.0-use.local
-  resolution: "list@workspace:packages/list"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "load-json-file@npm:^4.0.0":
   version: 4.0.0
@@ -12125,15 +12242,6 @@ __metadata:
   checksum: a9f25b0a8ecfb7324277393f19ef68e6ba53b9e6e4b526bbf2ba23055c5440fbf61acc7bf66bfd980e9eb4951a4790f6f777a9a3abd36603f22c87e8a64d3d6b
   languageName: node
   linkType: hard
-
-"menu@workspace:packages/menu":
-  version: 0.0.0-use.local
-  resolution: "menu@workspace:packages/menu"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "meow@npm:^8.0.0":
   version: 8.1.2
@@ -12934,15 +13042,6 @@ __metadata:
   checksum: 4a4944631173e7d521d6b80e4c85ccaeceb2870f315584fa30121f505a6dfd86439c5e3fdd8cd9e0e291290c41d0c3599f0cb12ab356722ed242584c30348e50
   languageName: node
   linkType: hard
-
-"notched-outline@workspace:packages/notched-outline":
-  version: 0.0.0-use.local
-  resolution: "notched-outline@workspace:packages/notched-outline"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "npm-bundled@npm:^1.1.1":
   version: 1.1.2
@@ -14401,15 +14500,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"radio@workspace:packages/radio":
-  version: 0.0.0-use.local
-  resolution: "radio@workspace:packages/radio"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "ramda@npm:^0.21.0":
   version: 0.21.0
   resolution: "ramda@npm:0.21.0"
@@ -15319,15 +15409,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ripple@workspace:packages/ripple":
-  version: 0.0.0-use.local
-  resolution: "ripple@workspace:packages/ripple"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "root@workspace:.":
   version: 0.0.0-use.local
   resolution: "root@workspace:."
@@ -15518,15 +15599,6 @@ __metadata:
   checksum: fb73f3d759d43ba033c877628fe9751620a26879f6301d3dbeeb48cf2a65baec5cdf99da65d1bf3b4ff5444b2e59cbe4f81c2456b5e0d2ba7d7fd4aed5da29ce
   languageName: node
   linkType: hard
-
-"select@workspace:packages/select":
-  version: 0.0.0-use.local
-  resolution: "select@workspace:packages/select"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.1":
   version: 5.7.1
@@ -15778,30 +15850,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slider@workspace:packages/slider":
-  version: 0.0.0-use.local
-  resolution: "slider@workspace:packages/slider"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "smart-buffer@npm:^4.1.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: b5167a7142c1da704c0e3af85c402002b597081dd9575031a90b4f229ca5678e9a36e8a374f1814c8156a725d17008ae3bde63b92f9cfd132526379e580bec8b
   languageName: node
   linkType: hard
-
-"snackbar@workspace:packages/snackbar":
-  version: 0.0.0-use.local
-  resolution: "snackbar@workspace:packages/snackbar"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "snapdragon-node@npm:^2.0.1":
   version: 2.1.1
@@ -16442,15 +16496,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"switch@workspace:packages/switch":
-  version: 0.0.0-use.local
-  resolution: "switch@workspace:packages/switch"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "symbol.prototype.description@npm:^1.0.0":
   version: 1.0.5
   resolution: "symbol.prototype.description@npm:1.0.5"
@@ -16665,24 +16710,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"textfield@workspace:packages/textfield":
-  version: 0.0.0-use.local
-  resolution: "textfield@workspace:packages/textfield"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
-"theme@workspace:packages/theme":
-  version: 0.0.0-use.local
-  resolution: "theme@workspace:packages/theme"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
 "throttle-debounce@npm:^3.0.1":
   version: 3.0.1
   resolution: "throttle-debounce@npm:3.0.1"
@@ -16808,24 +16835,6 @@ __metadata:
   checksum: 952c29e2a85d7123239b5cfdd889a0dde47ab0497f0913d70588f19c53f7e0b5327c95f4651e413c74b785147f9637b17410ac8c846d5d4a20a5a33eb6dc3a45
   languageName: node
   linkType: hard
-
-"tooltip@workspace:packages/tooltip":
-  version: 0.0.0-use.local
-  resolution: "tooltip@workspace:packages/tooltip"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
-
-"top-app-bar@workspace:packages/top-app-bar":
-  version: 0.0.0-use.local
-  resolution: "top-app-bar@workspace:packages/top-app-bar"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "tough-cookie@npm:~2.5.0":
   version: 2.5.0
@@ -17063,15 +17072,6 @@ __metadata:
   checksum: c05c318d79c690f101d7ffb34cd6c7d6bbd884d3af9cefe7749ad0cd6be43c7082f098280982ca945dcba23fde34a08fed9602bb26540936baf8c0520727d3ba
   languageName: node
   linkType: hard
-
-"typography@workspace:packages/typography":
-  version: 0.0.0-use.local
-  resolution: "typography@workspace:packages/typography"
-  peerDependencies:
-    react: ^17.0.x
-    react-dom: ^17.0.x
-  languageName: unknown
-  linkType: soft
 
 "uglify-js@npm:^3.1.4":
   version: 3.14.5

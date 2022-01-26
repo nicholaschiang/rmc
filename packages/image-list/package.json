@@ -1,5 +1,5 @@
 {
-  "name": "image-list",
+  "name": "@rmc/image-list",
   "version": "0.0.0",
   "description": "RMC Image List Component",
   "main": "dist/index.js",

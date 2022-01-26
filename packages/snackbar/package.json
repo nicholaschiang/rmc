@@ -1,5 +1,5 @@
 {
-  "name": "snackbar",
+  "name": "@rmc/snackbar",
   "version": "0.0.0",
   "description": "RMC Snackbar Component",
   "main": "dist/index.js",

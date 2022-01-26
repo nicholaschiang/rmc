@@ -1,5 +1,5 @@
 {
-  "name": "slider",
+  "name": "@rmc/slider",
   "version": "0.0.0",
   "description": "RMC Slider Component",
   "main": "dist/index.js",

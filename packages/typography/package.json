@@ -1,5 +1,5 @@
 {
-  "name": "typography",
+  "name": "@rmc/typography",
   "version": "0.0.0",
   "description": "RMC Typography Component",
   "main": "dist/index.js",

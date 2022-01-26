@@ -1,5 +1,5 @@
 {
-  "name": "tooltip",
+  "name": "@rmc/tooltip",
   "version": "0.0.0",
   "description": "RMC Tooltip Component",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "menu",
+  "name": "@rmc/menu",
   "version": "0.0.0",
   "description": "RMC Menu Component",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "chips",
+  "name": "@rmc/chips",
   "version": "0.0.0",
   "description": "RMC Chips Component",
   "main": "dist/index.js",

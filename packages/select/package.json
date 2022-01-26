@@ -1,5 +1,5 @@
 {
-  "name": "select",
+  "name": "@rmc/select",
   "version": "0.0.0",
   "description": "RMC Select Component",
   "main": "dist/index.js",

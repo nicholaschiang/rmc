@@ -1,5 +1,5 @@
 {
-  "name": "drawer",
+  "name": "@rmc/drawer",
   "version": "0.0.0",
   "description": "RMC Drawer Component",
   "main": "dist/index.js",
