@@ -1,6 +1,7 @@
 import {
   ChangeEvent,
   Dispatch,
+  Ref,
   SetStateAction,
   useCallback,
   useEffect,
@@ -24,10 +25,13 @@ function usePropState<T>(
 
 export interface CheckboxProps {
   checked?: boolean;
-  className?: string;
   disabled?: boolean;
   indeterminate?: boolean;
   onChange?: (evt: ChangeEvent<HTMLInputElement>) => void;
+  id?: string;
+  className?: string;
+  inputRef?: Ref<HTMLInputElement>;
+  value?: string | number | string[];
 }
 
 export function Checkbox(p: CheckboxProps): JSX.Element {
@@ -58,6 +62,9 @@ export function Checkbox(p: CheckboxProps): JSX.Element {
   return (
     <div ref={root} className={cn('mdc-checkbox', p.className)}>
       <input
+        id={p.id}
+        ref={p.inputRef}
+        value={p.value}
         type='checkbox'
         className='mdc-checkbox__native-control'
         onChange={(evt) => {
