@@ -2723,6 +2723,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@material/button@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@material/button@npm:13.0.0"
+  dependencies:
+    "@material/density": ^13.0.0
+    "@material/dom": ^13.0.0
+    "@material/elevation": ^13.0.0
+    "@material/feature-targeting": ^13.0.0
+    "@material/ripple": ^13.0.0
+    "@material/rtl": ^13.0.0
+    "@material/shape": ^13.0.0
+    "@material/theme": ^13.0.0
+    "@material/tokens": ^13.0.0
+    "@material/touch-target": ^13.0.0
+    "@material/typography": ^13.0.0
+    tslib: ^2.1.0
+  checksum: beefcaf74143bfb3b4ce1679851c942997316ee0a24b6761b6ec834ccd09b54f74a507f589a6e824d7e907c5893de7a46607e6bb6ff0a89a65dbf928d9815fcc
+  languageName: node
+  linkType: hard
+
 "@material/checkbox@npm:^13.0.0":
   version: 13.0.0
   resolution: "@material/checkbox@npm:13.0.0"
@@ -2756,6 +2776,20 @@ __metadata:
     "@material/feature-targeting": ^13.0.0
     tslib: ^2.1.0
   checksum: c13fd5a9d5c5f5e154d79b5e333efdcdbfd718df633cd7494a7bdbf5ea7a4113e9d4f7d94d27b7a19cdd93af3aed86f81921653c2f71e4a0e2ce5ae4295c0c36
+  languageName: node
+  linkType: hard
+
+"@material/elevation@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@material/elevation@npm:13.0.0"
+  dependencies:
+    "@material/animation": ^13.0.0
+    "@material/base": ^13.0.0
+    "@material/feature-targeting": ^13.0.0
+    "@material/rtl": ^13.0.0
+    "@material/theme": ^13.0.0
+    tslib: ^2.1.0
+  checksum: 856fd39ec4e1715a47fc54b15dba0a53b9b8c8f25894417b682e21856898db2aff9ea5b73ec369e556693d4d40db36ff3f33fb033f96dd37b0282c8426c634dc
   languageName: node
   linkType: hard
 
@@ -2793,6 +2827,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@material/shape@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@material/shape@npm:13.0.0"
+  dependencies:
+    "@material/feature-targeting": ^13.0.0
+    "@material/rtl": ^13.0.0
+    "@material/theme": ^13.0.0
+    tslib: ^2.1.0
+  checksum: 9388a7a0a94235caad1adb23faf4ad4c7deed36a0672b296d2cfc3f27b1b35682a542cd4009c1e54dfe2986c1ee7a724ca6944a6365fd3e6ed2196ae6632da5f
+  languageName: node
+  linkType: hard
+
 "@material/theme@npm:^13.0.0":
   version: 13.0.0
   resolution: "@material/theme@npm:13.0.0"
@@ -2800,6 +2846,15 @@ __metadata:
     "@material/feature-targeting": ^13.0.0
     tslib: ^2.1.0
   checksum: 8797fdce6f744153b99cb704a822b0207a1a6c28a219d6cc3fc3f0f683c58829ee3af806d293cf1d97d3affdb1cfbf813dd2fa88f26e33ab9d842d12edea809c
+  languageName: node
+  linkType: hard
+
+"@material/tokens@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@material/tokens@npm:13.0.0"
+  dependencies:
+    "@material/elevation": ^13.0.0
+  checksum: 26460d96812b551c2e844ac4b442d775005a230b02b00e05afcb5b7428f38aa1d311f607eccf70121b22f6a4697ee3f56bc456f26aa7650e8a6de8adcb562461
   languageName: node
   linkType: hard
 
@@ -2812,6 +2867,17 @@ __metadata:
     "@material/rtl": ^13.0.0
     tslib: ^2.1.0
   checksum: c8d7b7c57a6fb5599e97caaa6f8ed38a1b01f4dff9c02f94eda022d3b2d5015c985f31b04093e5b246941517da9208a547428fb95da7d1af740b8fa12e52c85b
+  languageName: node
+  linkType: hard
+
+"@material/typography@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@material/typography@npm:13.0.0"
+  dependencies:
+    "@material/feature-targeting": ^13.0.0
+    "@material/theme": ^13.0.0
+    tslib: ^2.1.0
+  checksum: 46c25858318efd6c5f8d9ce92a92ea4d5eff76ed9eacc66fb2174e58838b3d7a860e644abc5e0cbd40952882d2ced943894fc23db7f0f841b8b90b5b43919147
   languageName: node
   linkType: hard
 
@@ -3276,6 +3342,8 @@ __metadata:
 "@rmc/button@workspace:packages/button":
   version: 0.0.0-use.local
   resolution: "@rmc/button@workspace:packages/button"
+  dependencies:
+    "@material/button": ^13.0.0
   peerDependencies:
     react: ^17.0.x
     react-dom: ^17.0.x
