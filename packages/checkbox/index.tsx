@@ -1,6 +1,26 @@
-import { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
+import {
+  ChangeEvent,
+  Dispatch,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import { MDCCheckbox } from '@material/checkbox';
 import cn from 'classnames';
+
+function usePropState<T>(
+  initial: T,
+  prop?: T
+): [T, Dispatch<SetStateAction<T>>] {
+  const [control, setControl] = useState<T>(prop ?? initial);
+  useEffect(() => {
+    setControl((prev) => prop ?? prev);
+  }, [prop]);
+  return useMemo(() => [control, setControl], [control, setControl]);
+}
 
 export interface CheckboxProps {
   checked?: boolean;
@@ -17,26 +37,20 @@ export function Checkbox(p: CheckboxProps): JSX.Element {
     checkbox.current = new MDCCheckbox(el);
   }, []);
 
-  const [checked, setChecked] = useState(p.checked || false);
-  useEffect(() => {
-    setChecked((prev) => p.checked ?? prev);
-  }, [p.checked]);
+  const [checked, setChecked] = usePropState(false, p.checked);
   useEffect(() => {
     if (checkbox.current) checkbox.current.checked = checked;
   }, [checked]);
 
-  const [indeterminate, setIndeterminate] = useState(p.indeterminate || false);
-  useEffect(() => {
-    setIndeterminate((prev) => p.indeterminate ?? prev);
-  }, [p.indeterminate]);
+  const [indeterminate, setIndeterminate] = usePropState(
+    false,
+    p.indeterminate
+  );
   useEffect(() => {
     if (checkbox.current) checkbox.current.indeterminate = indeterminate;
   }, [indeterminate]);
 
-  const [disabled, setDisabled] = useState(p.disabled || false);
-  useEffect(() => {
-    setDisabled((prev) => p.disabled ?? prev);
-  }, [p.disabled]);
+  const [disabled, setDisabled] = usePropState(false, p.disabled);
   useEffect(() => {
     if (checkbox.current) checkbox.current.disabled = disabled;
   }, [disabled]);
